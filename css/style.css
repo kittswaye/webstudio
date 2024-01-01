@@ -172,6 +172,7 @@ address {
 
 .values-paragraph {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .values-item {
@@ -334,4 +335,8 @@ address {
 
 .tel {
     color: #434455;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
