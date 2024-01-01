@@ -333,7 +333,8 @@ address {
 }
 
 .section_h1 {
-    font-size: 56px
+    font-size: 56px;
+    letter-spacing: 0.02em;
 }
 
 .tel {
