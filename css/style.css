@@ -1,7 +1,9 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
-    color: #434455
+    color: #434455;
+    padding: 0;
+    margin: 0;
 }
 
 .header-logo {
@@ -283,6 +285,7 @@ address {
 
 .portfolio-list {
     display: flex;
+    flex-wrap: wrap;
     padding-left: 150px;
     padding-right: 150px;
     list-style: none;
@@ -339,4 +342,5 @@ address {
 
 .team-item {
     background-color: #FFFFFF;
+    text-align: center;
 }
