@@ -324,6 +324,10 @@ address {
     color: #434455;
 }
 
+.mailto:visited {
+    color: #404bbf;
+}
+
 .h1-section {
     font-size: 56px
 }
