@@ -14,7 +14,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-left: 160px;
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
 }
 
 .header-logo1 {
@@ -25,7 +25,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-top: 30px;
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
 }
 
 .span-studio {
@@ -37,8 +37,8 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     list-style: none;
     margin-left: 80px;
     display: inline-block;
@@ -77,6 +77,10 @@ body {
 }
 
 .header-link:hover {
+    color: #404bbf;
+}
+
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -332,7 +336,7 @@ address {
     color: #404bbf;
 }
 
-.section_h1 {
+.section_title {
     font-size: 56px;
     letter-spacing: 0.02em;
 }
