@@ -128,7 +128,7 @@ address {
     cursor: pointer;
 }
 
-.button-section:hover {
+.button-section:focus {
     background-color: #404BBF;
 }
 
