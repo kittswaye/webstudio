@@ -332,6 +332,10 @@ address {
     color: #434455;
 }
 
+.mailto:focus {
+    color: #404bbf;
+}
+
 .mailto:visited {
     color: #404bbf;
 }
