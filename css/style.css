@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
+    padding: 0;
     margin: 0;
 }
 
@@ -40,19 +41,26 @@ body {
     letter-spacing: 0.02em;
     list-style: none;
     margin-left: 80px;
+    display: inline-block;
 }
 
 .header-item {
+    position: relative;
     margin-left: 0;
     margin-right: 20px;
     padding-left: 0;
+    display: inline-block;
+    height: 30px;
     color: #434455;
 }
 
 .address-item {
+    position: relative;
     margin-left: 0;
     margin-right: 20px;
     padding-left: 0;
+    display: inline-block;
+    height: 30px;
     color: #434455;
 }
 
@@ -81,6 +89,7 @@ body {
 }
 
 .header-navigation {
+    display: inline;
 }
 
 address {
@@ -89,6 +98,7 @@ address {
 }
 
 .section-header {
+    padding: 160px;
     color: #ffffff;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -101,7 +111,13 @@ address {
 }
 
 .button-section {
+    border-radius: 4px;
     background: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
     color: #FFF;
     font-style: normal;
     font-weight: 500;
@@ -117,9 +133,11 @@ address {
 }
 
 .hidden {
+    display: none;
 }
 
 .values-list {
+    display: flex;
     padding-left: 150px;
     padding-right: 150px;
     list-style: none;
@@ -130,11 +148,13 @@ address {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    gap: 24px;
     margin: 0;
 }
 
 .team-list {
     font-size: 20px;
+    display: flex;
     padding-left: 150px;
     padding-right: 150px;
     list-style: none;
@@ -143,6 +163,7 @@ address {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.32px;
+    gap: 24px;
     margin: 0;
     line-height: 1.2;
 }
@@ -162,6 +183,8 @@ address {
 
 .values-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .h3-team {
@@ -203,8 +226,11 @@ address {
 }
 
 .team-workers{
+    display: inline-flex;
     padding-bottom: 32px;
     justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .footer {
@@ -212,6 +238,7 @@ address {
     font-family: Roboto, sans-serif;
     letter-spacing: 1.12px;
     background: #2e2f42;
+    padding: 100px 0 80px 160px;
     line-height: 1.17;
 }
 
@@ -245,6 +272,7 @@ address {
     line-height: 1.17;
 }
 .footer p {
+    width: 264px;
     color: #F4F4FD;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -255,10 +283,12 @@ address {
 }
 
 .team-section {
+    padding: 50px 0 50px 0;
     background: #F4F4FD;
 }
 
 .portfolio-list {
+    display: flex;
     flex-wrap: wrap;
     padding-left: 150px;
     padding-right: 150px;
@@ -270,6 +300,7 @@ address {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    gap: 24px;
     margin: 0;
 }
 
