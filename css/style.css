@@ -6,6 +6,18 @@ body {
     margin: 0;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header-logo {
     color: #4d5ae5;
     font-size: 18px;
@@ -15,6 +27,7 @@ body {
     text-transform: uppercase;
     margin-left: 160px;
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
 }
 
 .header-logo1 {
@@ -41,7 +54,8 @@ body {
     letter-spacing: 0.02em;
     list-style: none;
     margin-left: 80px;
-    display: inline-block;
+    gap: 40px;
+    display: flex;
 }
 
 .header-item {
@@ -52,6 +66,8 @@ body {
     display: inline-block;
     height: 30px;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-item {
@@ -89,16 +105,16 @@ body {
 }
 
 .header-navigation {
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 address {
     float: right;
-    font-style: normal
+    font-style: normal;
 }
 
 .section-header {
-    padding: 160px;
     color: #ffffff;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -108,13 +124,13 @@ address {
     flex-shrink: 0;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .button-section {
     border-radius: 4px;
-    background: #4D5AE5;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -126,14 +142,25 @@ address {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
 }
 
 .button-section:focus, .button-section:hover {
     background-color: #404BBF;
 }
 
+.section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .hidden {
     display: none;
+    visibility: hidden;
 }
 
 .values-list {
@@ -150,6 +177,10 @@ address {
     letter-spacing: 0.32px;
     gap: 24px;
     margin: 0;
+}
+
+.list-one {
+    width: calc((100% - 72px) / 4)
 }
 
 .team-list {
@@ -174,6 +205,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-bottom: 8px;
 }
 
 .values-paragraph {
@@ -238,8 +270,9 @@ address {
     font-family: Roboto, sans-serif;
     letter-spacing: 1.12px;
     background: #2e2f42;
-    padding: 100px 0 80px 160px;
     line-height: 1.17;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
@@ -249,6 +282,8 @@ address {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-link1 {
@@ -265,6 +300,7 @@ address {
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .footer {
@@ -343,6 +379,7 @@ address {
 .section_title {
     font-size: 56px;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .tel {
@@ -352,4 +389,9 @@ address {
 .team-item {
     background-color: #FFFFFF;
     text-align: center;
+}
+
+
+img {
+    display: block;
 }
