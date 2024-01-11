@@ -21,6 +21,10 @@ body {
     display: flex;
 }
 
+/*.container-width-auto {*/
+/*    width: auto;*/
+/*}*/
+
 .header-logo {
     color: #4d5ae5;
     font-size: 18px;
