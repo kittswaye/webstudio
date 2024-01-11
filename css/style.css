@@ -270,6 +270,7 @@ address {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     line-height: 1.11;
+    margin-bottom: 72px;
 }
 
 .team-workers{
@@ -342,6 +343,11 @@ address {
     border-radius: 0 0 4px 4px;
 }
 
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -357,6 +363,18 @@ address {
     letter-spacing: 0.32px;
     gap: 24px;
     margin: 0;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-li {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-title {
@@ -367,6 +385,7 @@ address {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .portfolio-paragraph {
