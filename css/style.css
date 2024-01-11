@@ -178,7 +178,7 @@ address {
 }
 
 .list-one {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 
 .team-list {
@@ -342,6 +342,7 @@ address {
 
 .team-item {
     border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .div-s-three {
@@ -405,6 +406,7 @@ address {
 
 .span-studio-footer {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .mailto {
