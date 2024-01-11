@@ -407,7 +407,7 @@ address {
 
 .span-studio-footer {
     color: #f4f4fd;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .mailto {
