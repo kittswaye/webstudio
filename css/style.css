@@ -186,7 +186,6 @@ address {
 
 .list-one {
     width: calc((100% - 72px) / 4);
-    /*flex-basis: calc((100% - 72px) / 4);*/
 }
 
 .team-list {
@@ -232,7 +231,7 @@ address {
 .values-paragraph {
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .values-item {
@@ -358,7 +357,7 @@ address {
 
 .portfolio-list {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /*padding-left: 150px;*/
     /*padding-right: 150px;*/
     list-style: none;
@@ -370,7 +369,7 @@ address {
     /*line-height: 24px;*/
     /*letter-spacing: 0.32px;*/
     gap: 24px;
-    margin: 0;
+    /*margin: 0;*/
     column-gap: 24px;
     row-gap: 48px;
 }
