@@ -30,9 +30,8 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.54em;
     text-transform: uppercase;
-    margin-left: 160px;
     font-family: "Raleway", sans-serif;
     margin-right: 76px;
 }
@@ -42,7 +41,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.54em;
     text-transform: uppercase;
     margin-top: 30px;
     font-family: "Raleway", sans-serif;
@@ -60,7 +59,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
-    margin-left: 80px;
     gap: 40px;
     display: flex;
 }
@@ -76,11 +74,11 @@ body {
 
 .address-item {
     position: relative;
-    margin-left: 0;
-    margin-right: 20px;
-    padding-left: 0;
-    display: inline-block;
-    height: 30px;
+    /*margin-left: 0;*/
+    /*margin-right: 20px;*/
+    /*!*padding-left: 0;*!*/
+    /*display: inline-block;*/
+    /*height: 30px;*/
     color: #434455;
 }
 
@@ -112,6 +110,7 @@ body {
 .header-navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 address {
@@ -152,6 +151,7 @@ address {
     height: 56px;
     border: none;
     background-color: #4d5ae5;
+    margin: 0 auto;
 }
 
 .button-section:focus, .button-section:hover {
@@ -170,18 +170,18 @@ address {
 
 .values-list {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    /*padding-left: 150px;*/
+    /*padding-right: 150px;*/
     list-style: none;
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    /*color: #434455;*/
+    /*font-family: Roboto, sans-serif;*/
+    /*font-size: 16px;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 24px;*/
+    /*letter-spacing: 0.32px;*/
     gap: 24px;
-    margin: 0;
+    /*margin: 0;*/
 }
 
 .list-one {
@@ -190,20 +190,19 @@ address {
 }
 
 .team-list {
-    font-size: 20px;
+    /*font-size: 20px;*/
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    /*padding-left: 150px;*/
+    /*padding-right: 150px;*/
     list-style: none;
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.32px;
+    /*color: #434455;*/
+    /*font-family: Roboto, sans-serif;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*letter-spacing: 0.32px;*/
     gap: 24px;
     margin: 0;
-    line-height: 1.2;
-    display: flex;
+    /*line-height: 1.2;*/
 }
 
 .visually-hidden {
@@ -360,16 +359,16 @@ address {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 150px;
-    padding-right: 150px;
+    /*padding-left: 150px;*/
+    /*padding-right: 150px;*/
     list-style: none;
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    /*color: #434455;*/
+    /*font-family: Roboto, sans-serif;*/
+    /*font-size: 16px;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 24px;*/
+    /*letter-spacing: 0.32px;*/
     gap: 24px;
     margin: 0;
     column-gap: 24px;
@@ -429,6 +428,7 @@ address {
     font-size: 56px;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .tel {
