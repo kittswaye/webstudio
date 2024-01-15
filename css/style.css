@@ -188,6 +188,11 @@ address {
     width: calc((100% - 72px) / 4);
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .team-list {
     /*font-size: 20px;*/
     display: flex;
