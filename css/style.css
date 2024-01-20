@@ -28,9 +28,16 @@ body {
     display: flex;
 }
 
-/*.container-width-auto {*/
-/*    width: auto;*/
-/*}*/
+a::after {
+    content: ' (' attr(href) ')';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 
 .header-logo {
     font-size: 18px;
