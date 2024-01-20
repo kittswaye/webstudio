@@ -28,8 +28,8 @@ body {
     display: flex;
 }
 
-a::after {
-    content: ' (' attr(href) ')';
+a.header-logo::after {
+    content: '';
     width: 100%;
     position: absolute;
     left: 0;
@@ -103,8 +103,10 @@ a::after {
 }
 
 .header-link {
-    color: #2e2f42;
+    /*color: #2e2f42;*/
     padding: 24px 0;
+    position: relative;
+    color: #404bbf;
 }
 
 .header-link:hover {
