@@ -225,7 +225,7 @@ ul {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    margin: 1px;
     border: 0;
     padding: 0;
 
@@ -298,6 +298,10 @@ ul {
     letter-spacing: 0.02em;
     font-size: 36px;
     margin-bottom: 72px;
+}
+
+.team-svg {
+    fill: #f4f4fd;
 }
 
 .portfolio-header {
@@ -535,10 +539,16 @@ img {
 
 .section-social-media {
     display: flex;
-    gap: 16px;
+    /*gap: 16px;*/
     list-style: none;
     justify-content: center;
-    /*padding: inherit;*/
+    gap: 24px;
+}
+
+.li-three {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-footer:hover {
