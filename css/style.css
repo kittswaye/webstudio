@@ -411,7 +411,7 @@ h1,h2,h3,h4,h5,h6.p {
         box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
     }
 
-    .img-four:hover .p-img {
+    .portfolio-item:hover .p-img {
         transform: translateY(0%);
     }
 
@@ -498,7 +498,6 @@ h1,h2,h3,h4,h5,h6.p {
         border-radius: 0 0 4px 4px;
         flex-basis: calc((100% - 72px) / 4);
         box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
-        height: 40px;
     }
 
 
