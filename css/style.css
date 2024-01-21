@@ -281,10 +281,10 @@ h1,h2,h3,h4,h5,h6.p {
         color: #2e2f42;
     }
 
-    .values-item h3, .values-item p {
-        text-align: center;
-        font-size: 16px;
-    }
+    /*.values-item h3, .values-item p {*/
+    /*    text-align: center;*/
+    /*    font-size: 16px;*/
+    /*}*/
 
     .team-header {
         color: #2E2F42;
