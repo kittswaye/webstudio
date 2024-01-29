@@ -619,12 +619,14 @@ svg {fill: none;}
 .button-footer:hover {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
 }
 
 .button-footer:focus {
     background-color: #404bbf;
     border: none;
+}
+
+.button-footer:hover ~ button .button-svg, .button-footer:focus ~ button .button-svg {
     fill: #ffffff;
 }
 
