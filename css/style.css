@@ -619,20 +619,22 @@ svg {fill: none;}
 .button-footer:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .button-footer:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .button-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-svg:hover, .button-svg:focus {
-    fill: #ffffff;
-}
+/*.button-svg:hover, .button-svg:focus {*/
+/*    fill: #ffffff;*/
+/*}*/
 
 /*.button-svg:focus {*/
 /*    fill: #ffffff;*/
