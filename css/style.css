@@ -652,6 +652,10 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 16px;
 }
 
+.div-form-privacy {
+    margin-bottom: 24px;
+}
+
 .label-name {
     font-size: 12px;
     line-height: 1.17;
