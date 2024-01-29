@@ -626,7 +626,8 @@ svg {fill: none;}
     border: none;
 }
 
-.button-footer:hover ~ button .button-svg, .button-footer:focus ~ button .button-svg {
+.button-footer:hover ~ button.button-footer .button-svg,
+.button-footer:focus ~ button.button-footer .button-svg {
     fill: #ffffff;
 }
 
