@@ -619,20 +619,22 @@ h1,h2,h3,h4,h5,h6,p {
 .button-footer:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .button-footer:focus {
     background-color: #404bbf;
     border: none;
-}
-
-.button-footer:hover ~ .button-svg {
     fill: #ffffff;
 }
 
-.button-footer:focus ~ .button-svg {
-    fill: #ffffff;
-}
+/*.button-footer:hover ~ .button-svg {*/
+/*    fill: #ffffff;*/
+/*}*/
+
+/*.button-footer:focus ~ .button-svg {*/
+/*    fill: #ffffff;*/
+/*}*/
 
 /*.button-footer:focus {*/
 /*    background-color: #404bbf;*/
