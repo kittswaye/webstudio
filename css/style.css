@@ -677,12 +677,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 #user-name:focus ~ .input-svg {
-    /*background-color: yellow;*/
     fill: #4D5AE5;
-    /*color: #4D5AE5;*/
-    /*display: none;*/
-    /*fill: none;*/
-    /*border-color: #4D5AE5;*/
 }
 
 .input-svg {
@@ -693,10 +688,6 @@ h1,h2,h3,h4,h5,h6,p {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2E2F42;
 }
-
-/*.input-svg:focus {*/
-/*    fill: #4D5AE5;*/
-/*}*/
 
 .fourth-div {
     margin-bottom: 16px;
