@@ -790,6 +790,7 @@ input:checked, .span-svg {
 
 .subscribe {
     margin-bottom: 16px;
+    margin-left: 76px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -820,7 +821,8 @@ input:checked, .span-svg {
     border-radius: 4px;
     color: #ffffff;
     flex-shrink: 0;
-    margin: 0 200px 100px 250px;
+    margin-left: 100px;
+    margin-top: -20px;
     /*position: fixed;*/
 }
 
@@ -844,6 +846,7 @@ input:checked, .span-svg {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+    margin-top: -10px;
 }
 
 .subscribe-svg {
