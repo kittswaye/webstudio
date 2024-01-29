@@ -779,7 +779,7 @@ h1,h2,h3,h4,h5,h6,p {
     margin-left: 95px;
 }
 
-.div-form input[type="checkbox"]:checked .span-privacy {
+input:checked, .span-svg {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
