@@ -743,11 +743,11 @@ svg {fill: none;}
     fill: transparent;
 }
 
-.span-privacy:checked {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
+/*.span-privacy:checked {*/
+/*    background-color: #404bbf;*/
+/*    border: none;*/
+/*    fill: #F4F4FD;*/
+/*}*/
 
 .privacy-policy {
     font-family: "Roboto", sans-serif;
@@ -781,13 +781,19 @@ svg {fill: none;}
     margin-left: 95px;
 }
 
-input:checked, .span-svg {
-    background-color: #404BBF;
+.span-svg {
+    /*background-color: #404BBF;*/
     border: none;
     fill: #F4F4FD;
     width: 16px;
     height: 16px;
     flex-shrink: 0;
+}
+
+#user-privacy:checked ~ .span-privacy {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .subscribe {
