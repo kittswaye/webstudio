@@ -790,7 +790,7 @@ svg {fill: none;}
     flex-shrink: 0;
 }
 
-#user-privacy:checked ~ .span-privacy {
+#user-privacy:checked ~ label .span-privacy {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
