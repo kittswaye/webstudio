@@ -648,6 +648,10 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 8px;
 }
 
+.div-form-comment {
+    margin-bottom: 16px;
+}
+
 .label-name {
     font-size: 12px;
     line-height: 1.17;
