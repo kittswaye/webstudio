@@ -1012,7 +1012,6 @@ li.menu-li:not(:last-child) {
     border: none;
 }
 
-/* >>> */
 .backdrop {
     position: absolute;
     top: 50%;
@@ -1047,8 +1046,6 @@ li.menu-li:not(:last-child) {
     padding-bottom: 80px;
 }
 
-/* <<< */
-
 
 @media screen and (min-width:768px) {
     .container {
@@ -1058,18 +1055,6 @@ li.menu-li:not(:last-child) {
     .modal {
         width: 408px;
     }
-
-    /* .backdrop {
-        display: none;
-    } */
-
-    /* .backdrop {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 50%;
-    } */
 
     .backdrop-menu {
         display: none;
@@ -1429,14 +1414,6 @@ li.menu-li:not(:last-child) {
     .button-subscribe {
         margin-top: 0px;
         margin-left: 25px;
-    }
-
-    .backdrop {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 50%;
     }
 
     .input-user {
