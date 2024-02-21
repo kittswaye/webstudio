@@ -1289,7 +1289,6 @@ li.menu-li:not(:last-child) {
     .address-item {
         font-size: 16px;
         line-height: 1.5;
-        margin-left: 100px;
     }
 
     .open-menu-btn {
