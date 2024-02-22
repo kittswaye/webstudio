@@ -24,15 +24,15 @@
             Web
             <span class="span-studio">Studio</span>
           </a>
-          <ul class="header-list" style="margin: 0; padding: 0">
+          <ul class="header-list">
             <li class="header-item">
               <a class="header-link current" href="./index.html">Studio</a>
             </li>
             <li class="header-item">
-              <a class="header-link current" href="">Portfolio</a>
+              <a class="header-link" href="">Portfolio</a>
             </li>
             <li class="header-item">
-              <a class="header-link current" href="">Contacts</a>
+              <a class="header-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -48,20 +48,24 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="open-menu-btn">
-          <svg width="24" height="24" viewBox="156 144 24 24">
-            <use href="./images/icons.svg#menu"></use>
-          </svg>
-        </button>
+        <a href="#menu">
+          <button type="button" class="open-menu-btn">
+            <svg width="24" height="24" viewBox="156 144 24 24">
+              <use href="./images/icons.svg#menu"></use>
+            </svg>
+          </button>
+        </a>
       </div>
     </header>
-    <div class="backdrop-menu">
+    <div class="backdrop-menu is-hidden" id="menu">
       <div class="modal-menu is-open">
-        <button class="button-header" type="button">
-          <svg class="button-svg" viewBox="107 144 8 8" width="8" height="8">
-            <use href="./images/icons.svg#close"></use>
-          </svg>
-        </button>
+        <a href="#">
+          <button class="button-header" type="button">
+            <svg class="button-svg" viewBox="107 144 8 8" width="8" height="8">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+        </a>
         <ul class="ul-menu">
           <li class="menu-li">Studio</li>
           <li class="menu-li">Portfolio</li>
@@ -141,7 +145,9 @@
           <h1 class="section_title">
             Effective Solutions <br />for Your Business
           </h1>
-          <button class="button-section" type="button">Order Service</button>
+          <a href="#order">
+            <button class="button-section" type="button">Order Service</button>
+          </a>
         </div>
       </section>
       <section class="section-two">
@@ -669,13 +675,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" id="order">
       <div class="modal">
-        <button class="button-footer" type="button">
-          <svg class="button-svg" viewBox="107 144 8 8" width="8" height="8">
-            <use href="./images/icons.svg#close"></use>
-          </svg>
-        </button>
+        <a href="#">
+          <button class="button-footer" type="button">
+            <svg class="button-svg" viewBox="107 144 8 8" width="8" height="8">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+        </a>
         <p class="p-modal">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="div-form">
