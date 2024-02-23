@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6,p {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     position: relative;
@@ -1123,11 +1123,6 @@ li.menu-li:not(:last-child) {
         padding: 0 15px;
     }
 
-    .header-logo {
-        letter-spacing: 0.0338em;
-        font-family: Raleway;
-    }
-
     .backdrop-menu {
         display: none;
     }
@@ -1284,7 +1279,6 @@ li.menu-li:not(:last-child) {
         margin: 0;
         margin-left: 80px;
         text-align: left;
-
     }
 
     .ul-footer {
